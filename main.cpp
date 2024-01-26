@@ -11,11 +11,24 @@
 				ex. int variableName;
 					int variableNameThisIs;
 			user defined functions - Pascal Case
-				ex. void FunctionName();
+				ex. void FunctionName(){};
+    			struct - Pascal Case
+       				ex. struct Student{};
 		Naming - Name should make sense on what it should do;
 		DRY - Don't Repeat Yourself
 		Single Responsibility Principle - One function must do one job
 		Contruction of Code:
+			struct StructName
+   			{
+				contant variable
+
+				variable
+
+    				constructor
+
+				functions
+      			}
+     
 			return_type FunctionName()
 			{
 				contant variable
