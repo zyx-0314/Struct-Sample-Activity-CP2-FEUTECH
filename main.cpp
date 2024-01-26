@@ -112,11 +112,11 @@ int main() {
 
 		std::cout << "Aguas" << std::endl;
 		aguas.askForName();
-		aguas.askForID();
+		aguas.askForID(1);
 
 		std::cout << "Delabajan" << std::endl;
 		delabajan.askForName();
-		delabajan.askForID();
+		delabajan.askForID(2);
 
 		system("cls");
 
