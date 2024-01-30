@@ -63,17 +63,17 @@ struct Student {
 	}
 
 	// local function - it can only be used inside the local(struct Student) scope
-	void calling() {
+	void Calling() {
 		std::cout << this->id << " - " << this->name << std::endl;
 	}
 
-	void askForName() {
+	void AskForName() {
 		std::cout << "Enter Name: ";
 		std::cin >> this->name;
 	}
 
 	// in the parameter or inside the function the variable is called local variable in function askForID(which is the name of the function)
-	void askForID(int id) {
+	void AskForID(int id) {
 
 		// code snippet on using time
 		// start
@@ -103,7 +103,7 @@ int main() {
 		std::cout << cayme.id << " - " << cayme.name << std::endl;
 
 		// you can call the function element/member
-		cayme.calling();
+		cayme.Calling();
 	*/
 
 	// Sample 2
@@ -111,18 +111,18 @@ int main() {
 		Student aguas, delabajan;
 
 		std::cout << "Aguas" << std::endl;
-		aguas.askForName();
-		aguas.askForID(1);
+		aguas.AskForName();
+		aguas.AskForID(1);
 
 		std::cout << "Delabajan" << std::endl;
-		delabajan.askForName();
-		delabajan.askForID(2);
+		delabajan.AskForName();
+		delabajan.AskForID(2);
 
 		system("cls");
 
 		std::cout << "We Have Students" << std::endl;
-		aguas.calling();
-		delabajan.calling();
+		aguas.Calling();
+		delabajan.Calling();
 	*/
 
 	// Sample 3
@@ -130,8 +130,8 @@ int main() {
 
 	for (int i = 0; i < 3; i++) {
 		std::cout << "Student " << i + 1 << std::endl;
-		students[i].askForName();
-		students[i].askForID(i);
+		students[i].AskForName();
+		students[i].AskForID(i);
 	}
 
 	system("cls");
@@ -139,7 +139,7 @@ int main() {
 	/*
 		std::cout << "We Have Students" << std::endl;
 		for (int i = 0; i < 3; i++) {
-			students[i].calling();
+			students[i].Calling();
 		}
 	*/
 
